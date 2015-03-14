@@ -1,0 +1,22 @@
+// prog 05.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{ int A;
+  cout << "Ingrese el numero: ";
+  cin >> A;
+if (A>=0)
+    if (A==0) cout << "El numero es negativo " << endl;
+else
+    cout << "El numero es cero " << endl;
+    else
+	   cout << "El numero es positivo " << endl;
+getch();
+
+}
